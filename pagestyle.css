@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Ropa+Sans');
+
+img{position:
+  relative;
+  right: 5%;
+width: 100%;
+margin: 0;
+}
+h3{padding-top: 20px;
+  font-weight: bold;
+font-size: 40px;
+text-align: center;
+margin: auto;}
+p{margin-top: 20px;
+word-spacing: 5px;
+line-height: 30px;
+  margin-left: auto;
+}
+@media only screen and (min-width:600px) {
+.container{    grid-template-columns: none;}
+.content{-webkit-box-shadow: 35px 2px 0px -200px rgba(0,0,0,0);
+-moz-box-shadow: 35px 2px 0px -200px rgba(0,0,0,0);
+box-shadow: 35px 2px 0px -200px rgba(0,0,0,0);}
+.content:hover{opacity: 1;
+}
+img{margin-top: 100px;
+  }
+  p{background-color: white;
+  padding: 20px 40px;}
+}

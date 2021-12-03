@@ -1,0 +1,31 @@
+@media only screen and (min-width:600px) {
+  .contact {
+    width: 50%;
+  }
+  .content {
+    box-shadow: 35px 2px 58px -31px rgba(0, 0, 0, 0);
+  }
+  .title {
+    top: 100px;
+  }
+  .content:hover .title {
+    top: 0px;
+  }
+  .title {
+    right: 150px
+  }
+  .about {
+    width: 40%;
+    position: relative;
+        left: 54px;
+    margin: auto;
+    float: left;
+    padding-bottom: 20px;
+    border-radius: 50%;
+  }
+  .bio{  padding-right: 84px;
+        padding-left: 950px;}
+  footer {bottom: -48px;
+    overflow: auto;
+  }
+}
